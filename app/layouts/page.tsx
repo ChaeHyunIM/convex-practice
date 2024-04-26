@@ -141,6 +141,7 @@ export default function Layouts() {
       <p>
         Done with layouts? Simply delete the <Code>app/layouts</Code> directory.
       </p>
+
     </main>
   );
 }

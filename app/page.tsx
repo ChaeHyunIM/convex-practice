@@ -14,6 +14,7 @@ import { SignInButton, SignUpButton, UserButton } from "@clerk/clerk-react";
 import { StickyHeader } from "@/components/layout/sticky-header";
 import { Skeleton } from "@/components/ui/skeleton";
 
+
 export default function Home() {
   return (
     <>
@@ -27,6 +28,7 @@ export default function Home() {
         <h1 className="text-4xl font-extrabold my-8 text-center">
           Convex + Next.js + Clerk Auth
         </h1>
+        <Code>hello</Code>
         <Authenticated>
           <SignedInContent />
         </Authenticated>
